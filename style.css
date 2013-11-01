@@ -1,0 +1,88 @@
+/*
+Theme Name: WpStrap
+Theme URI: http://localhost/wordpress
+Author: Myo Kyaw Htun
+Author URI: http://softcontrol.net
+Description: WP Strap is a wordpress theme using twitter bootstrap framework
+Version: 1.0
+*/
+
+body{
+	padding-top: 20px;
+}
+
+#wrapper, .container{
+	
+	max-width: 900px;
+
+}
+#heading{
+	position: relative;
+	background: url(images/header.png) no-repeat scroll 0 100% / 100% auto transparent;
+	max-height: 300px
+}
+#banner{
+	padding: 100px 0px;
+	text-align: center;
+	
+	
+}
+	#banner h1 a{
+		text-decoration: none;
+		color:#fff;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 300;
+		font-size: 40px;
+	}
+		#banner h1 a:hover{
+			text-decoration: none;
+			color:#fff;
+		}
+div.navbar{
+	border:none;
+	border-radius: 0;
+
+	
+}
+
+.content{
+	padding: 10px 20px;
+	
+	border-bottom: 1px solid #E7E7E7;
+	margin: 5px 0px;
+}
+
+article h1, h2, h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+}
+
+article h3 a{
+	color:#000;
+}
+
+article h3 a:hover{
+	text-decoration: none;
+	color:#000;
+}
+
+.entry-thumbnail{
+	margin-right: 10px;
+}
+
+.entry-content{
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	margin:30px 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.center{
+	float: none;
+	display: block;
+	margin: 10px auto;
+}
